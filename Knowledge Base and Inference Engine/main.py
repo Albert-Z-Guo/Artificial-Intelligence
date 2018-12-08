@@ -2,7 +2,7 @@ import unittest
 import read
 import copy
 from logical_classes import *
-from student_code import KnowledgeBase
+from code import KnowledgeBase
 
 
 class KBTest(unittest.TestCase):

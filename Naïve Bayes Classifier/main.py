@@ -1,6 +1,6 @@
 import math
 import sys
-import student_code as nbc
+import code as nbc
 import unittest
 
 def check_imports(source_name):

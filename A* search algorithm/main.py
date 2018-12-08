@@ -1,5 +1,5 @@
 import unittest
-import student_code as sc
+import code as sc
 import expand
 
 dis_map = {

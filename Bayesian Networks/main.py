@@ -1,5 +1,5 @@
 from bayesnet import BayesNet, BayesNode
-from student_code import ask
+from code import ask
 import unittest
 
 class BayesTest(unittest.TestCase):
@@ -43,7 +43,7 @@ class BayesTest(unittest.TestCase):
 		a = ask('Earthquake', False, {'Burglar':True}, bn)
 		print('P(-e)=',a)
 		self.assertAlmostEqual( 0.998, a)
-	
+
 
 if __name__== "__main__":
 	unittest.main()
