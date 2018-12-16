@@ -19,6 +19,7 @@ time_map1 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 15},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map2 = {
     'Campus': {'Campus': None, 'Whole_Food': 28, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -27,6 +28,7 @@ time_map2 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 15},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map3 = {
     'Campus': {'Campus': None, 'Whole_Food': 22, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -35,6 +37,7 @@ time_map3 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 17},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 15, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map4 = {
     'Campus': {'Campus': None, 'Whole_Food': 29, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 23, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -43,6 +46,7 @@ time_map4 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 16},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 10, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map5 = {
     'Campus': {'Campus': None, 'Whole_Food': 29, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -51,6 +55,7 @@ time_map5 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': 16},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 10, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map6 = {
     'Campus': {'Campus': None, 'Whole_Food': 14, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -59,6 +64,7 @@ time_map6 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': 15},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map7 = {
     'Campus': {'Campus': None, 'Whole_Food': 28, 'Beach_House': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -67,6 +73,7 @@ time_map7 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 15},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
 time_map8 = {
     'Campus': {'Campus': None, 'Whole_Food': 28, 'Beach_House': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None},
     'Beach': {'Campus': 14, 'Whole_Food': 14, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None},
@@ -74,6 +81,26 @@ time_map8 = {
     'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None},
     'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 15},
     'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None}}
+
+dis_map_tie_breaking_test = {
+    'Campus': {'Campus': 0, 'Whole_Food': 3, 'Beach': 5, 'Cinema': 5, 'Lighthouse': 1, 'Ryan_Field': 2, 'YWCA': 12, 'CVS': 4},
+    'Whole_Food': {'Campus': 3, 'Whole_Food': 0, 'Beach': 3, 'Cinema': 3, 'Lighthouse': 4, 'Ryan_Field': 5, 'YWCA': 8, 'CVS': 3},
+    'Beach': {'Campus': 5, 'Whole_Food': 3, 'Beach': 0, 'Cinema': 8, 'Lighthouse': 5, 'Ryan_Field': 7, 'YWCA': 12, 'CVS': 6},
+    'Cinema': {'Campus': 5, 'Whole_Food': 3, 'Beach': 8, 'Cinema': 0, 'Lighthouse': 7, 'Ryan_Field': 7, 'YWCA': 2, 'CVS': 4},
+    'Lighthouse': {'Campus': 1, 'Whole_Food': 4, 'Beach': 5, 'Cinema': 7, 'Lighthouse': 0, 'Ryan_Field': 1, 'YWCA': 15, 'CVS': 5},
+    'Ryan_Field': {'Campus': 2, 'Whole_Food': 5, 'Beach': 7, 'Cinema': 7, 'Lighthouse': 1, 'Ryan_Field': 0, 'YWCA': 12, 'CVS': 4},
+    'YWCA': {'Campus': 12, 'Whole_Food': 8, 'Beach': 12, 'Cinema': 2, 'Lighthouse': 15, 'Ryan_Field': 12, 'YWCA': 0, 'CVS': 5},
+    'CVS': {'Campus': 12, 'Whole_Food': 8, 'Beach': 12, 'Cinema': 2, 'Lighthouse': 15, 'Ryan_Field': 12, 'YWCA': 0, 'CVS': 0}}
+
+time_map_tie_breaking_test = {
+    'Campus': {'Campus': None, 'Whole_Food': 28, 'Beach': 13, 'Cinema': None, 'Lighthouse': 11, 'Ryan_Field': None, 'YWCA': None, 'CVS': None},
+    'Whole_Food': {'Campus': 14, 'Whole_Food': None, 'Beach': 14, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None, 'CVS': 6},
+    'Beach': {'Campus': 14, 'Whole_Food': 14, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None, 'CVS': None},
+    'Cinema': {'Campus': None, 'Whole_Food': 14, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': 12, 'CVS': None},
+    'Lighthouse': {'Campus': 11, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': None, 'Ryan_Field': 11, 'YWCA': None, 'CVS': None},
+    'Ryan_Field': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': None, 'Lighthouse': 12, 'Ryan_Field': None, 'YWCA': 15, 'CVS': None},
+    'YWCA': {'Campus': None, 'Whole_Food': None, 'Beach': None, 'Cinema': 13, 'Lighthouse': None, 'Ryan_Field': 15, 'YWCA': None, 'CVS': None},
+    'CVS': {'Campus': 7, 'Whole_Food': None, 'Beach': None, 'Cinema': 6, 'Lighthouse': None, 'Ryan_Field': None, 'YWCA': None, 'CVS': None}}
 
 class SearchTest(unittest.TestCase):
 
@@ -150,6 +177,12 @@ class SearchTest(unittest.TestCase):
         path = sc.a_star_search(dis_map, time_map8, 'Campus', 'Cinema')
         self.assertEqual(path, ['Campus', 'Lighthouse', 'Ryan_Field', 'YWCA', 'Cinema'])
         self.assertEqual(expand.expand_count, 4)
+
+    def test13(self):
+        expand.expand_count = 0
+        path = sc.a_star_search(dis_map_tie_breaking_test, time_map_tie_breaking_test, 'Campus', 'Cinema')
+        self.assertEqual(path, ['Campus', 'Beach', 'Whole_Food', 'CVS', 'Cinema'])
+        self.assertEqual(expand.expand_count, 6)
 
 if __name__ == "__main__":
     unittest.main()

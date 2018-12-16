@@ -3,6 +3,7 @@ import heapq as minheap
 
 def a_star_search (dis_map, time_map, start, end):
 	path = []
+	# be sure to call the imported function expand to get the next list of nodes
 	open_nodes = []
 	closed_nodes = []
 	node_expansion_dict = {}
@@ -52,9 +53,11 @@ def a_star_search (dis_map, time_map, start, end):
 							open_nodes[i][0] = total_cost
 							# update path
 							node_path_dict[next_node] = tuple(path)
+							# maintain heap structure
+							minheap.heapify(open_nodes)
 						break
 				else:
-					#  push the expanded node in open_nodes
+					# push the expanded node in open_nodes
 					minheap.heappush(open_nodes, [total_cost, next_node])
 					# if path to the expanded node does not exist
 					if next_node not in node_path_dict:
