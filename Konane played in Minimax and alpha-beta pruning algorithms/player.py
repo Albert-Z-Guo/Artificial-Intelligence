@@ -28,19 +28,16 @@ class Player(object):
         return -len(game_rules.getLegalMoves(board, 'o' if self.symbol == 'x' else 'x'))
 
 
-# This class has been replaced with the code for a deterministic player.
 class MinimaxPlayer(Player):
     def __init__(self, symbol, depth):
         super(MinimaxPlayer, self).__init__(symbol)
         self.depth = depth
 
-    # Leave these two functions alone.
     def selectInitialX(self, board): return (0,0)
     def selectInitialO(self, board):
         validMoves = game_rules.getFirstMovesForO(board)
         return list(validMoves)[0]
 
-    # Edit this one here. :)
     def getMove(self, board):
         legalMoves = game_rules.getLegalMoves(board, self.symbol)
         return self.minimax_decision(legalMoves, board)
@@ -65,7 +62,6 @@ class MinimaxPlayer(Player):
             if v > max_v:
                 max_v = v
                 selected_move = move
-        # game_rules.printBoard(game_rules.makeMove(board, selected_move))
         return selected_move
 
     def max_value(self, board, depth):
@@ -96,19 +92,16 @@ class MinimaxPlayer(Player):
         return v
 
 
-# This class has been replaced with the code for a deterministic player.
 class AlphaBetaPlayer(Player):
     def __init__(self, symbol, depth):
         super(AlphaBetaPlayer, self).__init__(symbol)
         self.depth = depth
 
-    # Leave these two functions alone.
     def selectInitialX(self, board): return (0,0)
     def selectInitialO(self, board):
         validMoves = game_rules.getFirstMovesForO(board)
         return list(validMoves)[0]
 
-    # Edit this one here. :)
     def getMove(self, board):
         legalMoves = game_rules.getLegalMoves(board, self.symbol)
         return self.alpha_beta_search(legalMoves, board)
@@ -130,7 +123,6 @@ class AlphaBetaPlayer(Player):
             if v > max_v:
                 max_v = v
                 selected_move = move
-        # game_rules.printBoard(self.makeMove(board, selected_move))
         return selected_move
 
     def get_opponent_symbol(self, symbol):
