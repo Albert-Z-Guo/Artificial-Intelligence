@@ -1,8 +1,9 @@
-Selected Projects on Classical Artificial Intelligence Algorithms
+Selected Projects on Classic Artificial Intelligence Algorithms
 * [A* Search](https://en.wikipedia.org/wiki/A*_search_algorithm)
 * [Bayesian Networks](https://en.wikipedia.org/wiki/Bayesian_network)
 * [Forward Chaining](https://en.wikipedia.org/wiki/Forward_chaining)
-* [Alpha-beta Pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
+* [Minimax](https://en.wikipedia.org/wiki/Minimax)
+    - [Alpha-beta Pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning)
 * [Naïve Bayes Classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 * [Planning Domain Definition Language](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language)
     - Problem files are recommended to be used with an online `.pddl` [editor](http://editor.planning.domains/#) to simulate robot pathing within Amazon warehouses.
